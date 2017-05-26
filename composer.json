@@ -8,6 +8,7 @@
             "email": "zhuxishun@cw100.com"
         }
     ],
+	 "minimum-stability": "dev",
 	 "autoload": {
 		"psr-4": {
 		  "Omnipay\\Alipay\\": "src/",
