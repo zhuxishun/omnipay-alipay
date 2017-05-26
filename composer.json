@@ -9,18 +9,17 @@
         }
     ],
 	 "autoload": {
-    "psr-4": {
-      "Omnipay\\Alipay\\": "src/",
-      "Omnipay\\Alipay\\Tests\\": "tests/"
-    },
-    "files": [
-      "src/Common/helpers.php"
-    ]
-  },
+		"psr-4": {
+		  "Omnipay\\Alipay\\": "src/",
+		  "Omnipay\\Alipay\\Tests\\": "tests/"
+		},
+		"files": [
+		  "src/Common/helpers.php"
+		]
+   },
     "require": {
 		"omnipay/common": "~2.0"
 	},
-	,
    "require-dev": {
     "omnipay/tests": "~2.0"
   }
