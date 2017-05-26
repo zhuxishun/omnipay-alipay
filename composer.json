@@ -1,25 +1,14 @@
 {
-  "name": "zhuxishun/omnipay-alipay",
-  "type": "library",
-  "description": "Alipay gateway for Omnipay payment processing library",
-  "keywords": [
-    "alipay",
-    "gateway",
-    "merchant",
-    "omnipay",
-    "pay",
-    "payment",
-    "purchase"
-  ],
-  "homepage": "https://github.com/zhuxishun/omnipay-alipay,
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "zhuxishun",
-      "email": "zhuxishun@gmail.com"
-    }
-  ],
-  "autoload": {
+    "name": "zhuxishun/omnipay-alipay",
+	 "type": "library",
+	 "description": "针对omnipay-alipay库中无密退款的修改",
+    "authors": [
+        {
+            "name": "zhuxishun",
+            "email": "zhuxishun@cw100.com"
+        }
+    ],
+	 "autoload": {
     "psr-4": {
       "Omnipay\\Alipay\\": "src/",
       "Omnipay\\Alipay\\Tests\\": "tests/"
@@ -28,10 +17,11 @@
       "src/Common/helpers.php"
     ]
   },
-  "require": {
-    "omnipay/common": "~2.0"
-  },
-  "require-dev": {
+    "require": {
+		"omnipay/common": "~2.0"
+	},
+	,
+   "require-dev": {
     "omnipay/tests": "~2.0"
   }
 }
